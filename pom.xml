@@ -66,7 +66,7 @@
     <project.google.http.version>1.43.3</project.google.http.version>
     <project.junit.version>4.13.2</project.junit.version>
     <project.guava.version>32.0.0-android</project.guava.version>
-    <project.appengine.version>2.0.19</project.appengine.version>
+    <project.appengine.version>2.0.23</project.appengine.version>
     <project.findbugs.version>3.0.2</project.findbugs.version>
     <deploy.autorelease>false</deploy.autorelease>
     <project.autovalue.version>1.8.2</project.autovalue.version>
@@ -487,10 +487,10 @@
         <docletName>java-docfx-doclet-1.9.0</docletName>
         <outputpath>${project.build.directory}/docfx-yml</outputpath>
         <projectname>${project.artifactId}</projectname>
-        <excludeclasses></excludeclasses>
-        <excludePackages></excludePackages>
+        <excludeclasses/>
+        <excludePackages/>
         <source>8</source>
-        <sourceFileExclude></sourceFileExclude>
+        <sourceFileExclude/>
       </properties>
       <build>
         <plugins>
