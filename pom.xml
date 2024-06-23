@@ -70,7 +70,7 @@
     <project.findbugs.version>3.0.2</project.findbugs.version>
     <deploy.autorelease>false</deploy.autorelease>
     <project.autovalue.version>1.8.2</project.autovalue.version>
-    <auto-value-annotation.version>1.10.4</auto-value-annotation.version>
+    <auto-value-annotation.version>1.11.0</auto-value-annotation.version>
   </properties>
 
   <dependencyManagement>
@@ -487,10 +487,10 @@
         <docletName>java-docfx-doclet-1.9.0</docletName>
         <outputpath>${project.build.directory}/docfx-yml</outputpath>
         <projectname>${project.artifactId}</projectname>
-        <excludeclasses></excludeclasses>
-        <excludePackages></excludePackages>
+        <excludeclasses/>
+        <excludePackages/>
         <source>8</source>
-        <sourceFileExclude></sourceFileExclude>
+        <sourceFileExclude/>
       </properties>
       <build>
         <plugins>
